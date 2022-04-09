@@ -1,21 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body{
   font-family: 'Noto Sans JP', sans-serif;
   background-color: #EFEFEF;
+  margin-top: 2rem;
 }
 
 h1{
   font-size: 60px;
   text-align: center;
   color: #051367;
+  font-weight: 700;
+}
+
+h3 {
+  color: #BAFFB4;
+}
+
+p{
+  color: #92A9BD;
 }
 
 .main {
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .picture {
-  width: 90%;
-  border-radius: 10px;
+  width: 100%;
+  border: solid 10px #051367;
+  border-right: none;
+  border-left: none;
   display: block;
-  margin: 2rem auto;
+  margin: 5rem auto 2rem;
 }
