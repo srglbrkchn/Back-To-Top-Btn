@@ -9,6 +9,11 @@ body{
   margin-top: 2rem;
 }
 
+footer {
+  font-size: 10px;
+  background-color: #34BE82;
+}
+
 h1{
   font-size: 60px;
   text-align: center;
@@ -17,7 +22,12 @@ h1{
 }
 
 h3 {
-  color: #BAFFB4;
+  color: #34BE82;
+  padding: 1.5rem 0;
+}
+
+a{
+  text-decoration: none;
 }
 
 p{
@@ -26,6 +36,22 @@ p{
 
 .main {
   padding: 1rem 0;
+}
+
+.translation {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.txt {
+  border: solid 1px #051367;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  align-items: center;
+  padding: .9rem;
 }
 
 .picture {
